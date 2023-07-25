@@ -1,6 +1,6 @@
 # GARCH-Modeling
 
-## Forecasting Bitcoin daily volatility using GARCH modeling
+### Forecasting Bitcoin daily volatility using GARCH modeling
 
 This project aims to predict the daily volatility of Bitcoin by utilizing various GARCH models, including Standard GARCH, Exponential GARCH, and RealGARCH. To evaluate the effectiveness of these models, the Realized Variance measure from the highfrequency package is used as a baseline. The project covers the time period ranging from September 9th, 2019 to March 15th, 2023, and the necessary data is sourced from Binance's API. The models' performances are measured based on the pearson correlation and MSE, and the findings reveal that RealGARCH outperforms Standard GARCH and Exponential GARCH while the latter model is found to be the worst performer.
 
